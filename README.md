@@ -75,9 +75,9 @@ With above preparation done, simulate the website with following steps:
 
 13.  Copy and paste VM Option, click "OK"
 
-    -Xms1g
-    -Xmx1g
-    -XX:MaxPermSize=2g
+    -Xms2g
+    -Xmx2g
+    -XX:MaxPermSize=4g
     -Djava.net.preferIPv4Stack=true
     -Dorg.jboss.resolver.warning=true
     -Dsun.rmi.dgc.client.gcInterval=3600000
